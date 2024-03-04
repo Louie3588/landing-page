@@ -1,39 +1,26 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column;   
     margin: 0;
+    height: 100vh;
     
 }
 .hero{
     display: flex;
+    background-color: #1f2937; 
     flex-direction: column;
-    background-color: #1f2937;
-    justify-content: center;
-    
+    padding: 10px 200px 100px;
 }
 .top-hero{
     display: flex;
     justify-content: space-between;
-    
+    padding-bottom: 100px;
 }
 .bottom-hero{
     display: flex;
-
-}
-.this-website{
-    font-size: 48px;
-    font-weight: 700;
-    color: #f9faf8;
-}
-.logo{
-    font-size: 24px;
-    color: #f9faf8;
-}
-.li,
-.subtext{
-    font-size: 18px;
-    color: #e5e7eb;
+    justify-content: space-between;
+    gap: 50px;
 }
 ul{
     list-style: none;
@@ -42,6 +29,50 @@ ul{
     padding: 0px;
     gap: 16px;
 }
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
 a{
     text-decoration: none;
+}
+.li,
+.subtext,
+.placeholder{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.image1{
+    height: 200px;
+    width: 800px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.placeholder{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.this-website{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    display: flex;
+    justify-content: flex-start;   
+}
+.website{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    width: 100px;
+    height: 30px;
 }
