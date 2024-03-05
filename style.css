@@ -121,6 +121,7 @@ button{
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 200px 0px;
+    justify-content: flex-end;
     
 }
 .inspiring-quote{
@@ -133,4 +134,13 @@ button{
     font-weight: 900;
     display: flex;
     justify-content: flex-end;
+}
+.tail{
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 100px;  
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px 100px; 
 }
