@@ -117,7 +117,7 @@ button{
 }
 .bottom-info{
     display: flex;
-    padding: 200px 100px 100px;
+    padding: 200px 20px 100px;
 }
 .i-subtext{
     text-align: center;
@@ -126,8 +126,7 @@ button{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    /*padding: 200px 0px;
-    justify-content: flex-end;*/
+
     
 }
 .inspiring-quote{
@@ -148,7 +147,7 @@ button{
     border-radius: 15px;
     align-items: center;
     justify-content: space-between;
-    margin: -100px 200px 100px; 
+    margin: 0px 200px 100px; 
 }
 .top-tail{
     color: #f9faf8;
